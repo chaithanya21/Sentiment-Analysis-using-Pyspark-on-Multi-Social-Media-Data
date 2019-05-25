@@ -1,0 +1,48 @@
+The scope of the project is to analyse the sentiments of the texts posted on social media and useful knowledge regarding the mood of the people towards the Lok Sabha 2019
+elections after which contemporary machine learning algorithms for text classification are implemented and compared as to which among them performs better.
+
+Highlights of this project:
+1. Scrapping data from twitter and reddit based on keyword search
+2. Analyze the sentiments of the texts from the data collected.
+3. Gain useful knowledge after processing the collected data.
+4. Compare contemporary text classification machine learning algorithms and
+justification.
+
+Election is the backbone of democracy. India being the largest democracy in the world holds its national general election once every five years where every individual of legal
+age is allowed to cast their vote and decide the fate of the country. Unlike the US, where the people directly vote for the presidential candidates India follows a parliamentary
+form of governance where people vote for representatives of their constituency who then select a prime minister for the nation. Moreover, the Indian constitution permits a
+multi-party system where any number of parties can contest the elections. The parties campaign exhaustively from rallies to social media.
+
+
+Introduction to the project 
+
+Election is the foundation on which democracy stands. It's the most vital instrument of democracy wherever the voters communicate with the representatives. One vital
+component in elections is the election polls/survey. Conducting polls can be time and resource consuming and may not accurately predict the election outcomes. thus,
+attempting to resolve the accuracy and resource problems, we explore the chance of exploitation of knowledge from social media because of the vast amount of opinions
+posted by people on these platforms to predict the result of election.
+Social media has become the foremost widespread communication tool on the net. many scores of messages area unit being denote each day within the widespread social media
+sites like Twitter and Reddit .[1] explicit in their paper that social media websites become valuable sources for opinion mining as a result of folks post everything, from the main
+points of their existence, like the product and services they use, to opinions concerning current problems like their political and social views.
+
+Humans don’t observe clear criteria for evaluating the sentiment of a piece of text. Judging the sentiment for a particular piece of text is a subjective task which is heavily
+influenced by personal experiences, thoughts, and beliefs. By using a centralized sentiment analysis system, the same criteria can be applied to all of the data. This helps
+to reduce errors and improve data consistency. There’s just too much data to processmanually. Sentiment analysis allows to process data at scale in an efficient and cost-
+effective way.
+
+This project is centred around analysing sentiments of text from multiple social medianetworking sites. One of the social media analyses tackled here is Twitter, which is the
+world’s largest micro-blogging website and it’s the place on the internet where people express their political views and ideologies in addition to other things through short
+messages called ‘tweets’. Not only do voters use this platform to openly support political parties but also to express their opinions on every current affairs and issues happening in
+the country. Recently it has become a common ground for politicians and party leaders to convey their messages to the people of the nation and hold campaigns among other
+things. So, analysing the sentiments of the voters on this media will allow us to paint a picture of the political sway of the country.
+
+The other social media considered here is Reddit, which is the largest social news aggregation, web content rating, and discussion website. This is place online where
+people can post news or discussion topics which will be responded to by scores of people through comments. The news and topics posted can range over a wide variety of political
+topics. Each post will give rise to thousands of comments where people express their
+opinion on the matter while each post also acts as a debate ground of sorts where people can comment to other people’s comments. So, an aggregation of all the comments from
+all the related posts will aide us in getting to know the current political mood of the nation.
+
+Finally, after getting useful knowledge from the analysed tweets and comments, the project works on building and comparing contemporary machine learning algorithms for
+sentiment classification of text. As large amount of data will be collected and used for training these models, the entire process of building, training, testing and analysing the
+performance of these models will be undertaken using spark and python which leveragesthe in-memory processing ability of spark and parallelizing the necessary processes and
+also making use of its pipelining feature. As traditional methods of model training are timeconsuming and resource intensive this proposed approach is an effort to overcome these
+drawbacks.
